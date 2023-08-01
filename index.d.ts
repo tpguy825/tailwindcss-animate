@@ -1,3 +1,4 @@
-declare const plugin: { handler: () => void }
+import plugin from "tailwindcss/plugin"
 
-export = plugin
+const animate: ReturnType<typeof plugin>
+export default animate
